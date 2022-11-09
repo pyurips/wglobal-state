@@ -1,6 +1,8 @@
 - [Português](https://github.com/pyurips/WGlobalState#wglobalstate)
 - [English](https://github.com/pyurips/WGlobalState#wglobalstate-1)
 
+![WGlobalStateExampleGIF](https://cdn.discordapp.com/attachments/971787111470596136/1039796847239245834/React-App-Google-Chrome-2022-11-09-03-58-37.gif)
+
 # WGlobalState
 
 Trata-se de um método de compartilhamento global de estados em uma aplicação web usando React.
