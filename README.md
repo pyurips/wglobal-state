@@ -1,5 +1,5 @@
 - [Português](https://github.com/pyurips/WGlobalState#wglobalstate)
-- [English](link)
+- [English](https://github.com/pyurips/WGlobalState#wglobalstate-1)
 
 # WGlobalState
 
