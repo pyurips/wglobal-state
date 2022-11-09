@@ -1,4 +1,4 @@
-- [Português](link)
+- [Português](https://github.com/pyurips/WGlobalState#wglobalstate)
 - [English](link)
 
 # WGlobalState
