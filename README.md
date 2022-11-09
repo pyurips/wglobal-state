@@ -29,12 +29,12 @@ O componente é organizado da seguinte maneira:
 ### Exemplo prático do passso a passo na criação de um estado global
 
 1. Crie um novo estado `newStateExample` e um método para mudar o estado `setNewStateExample` dentro do `GlobalState`. Por exemplo, usando React Hooks, ficará: `const [newStateExample, setNewStateExample] = useState()`;
-2. Agora, o último passo é modificar a estrutura do `switch` dentro do método `window.__globalState` adicionando uma condição dentro da estrutura `case 'get'`:
+2. Agora, o último passo é modificar a estrutura do `switch` dentro do método `window.__globalState` adicionando uma condição dentro da estrutura `case 'set'`:
     ```sh
     case 'newStateExample':
         return setNewStateExample(value);
     ```
-    Já dentro da estrutura `case 'set'`:
+    Já dentro da estrutura `case 'get'`:
     ```sh
     case 'newStateExample':
         return newStateExample;
@@ -72,12 +72,12 @@ The component is organized as follows:
 ### Practical example of the step-by-step creation of a global state
 
 1. Create a new `newStateExample` state and a method to change the `setNewStateExample` state inside `GlobalState`. For example, using React Hooks, it would look like: `const [newStateExample, setNewStateExample] = useState()`;
-2. Now, the last step is to modify the `switch` structure inside the `window.__globalState` method by adding a condition inside the `case 'get'` structure:
+2. Now, the last step is to modify the `switch` structure inside the `window.__globalState` method by adding a condition inside the `case 'set'` structure:
     ```sh
     case 'newStateExample':
         return setNewStateExample(value);
     ```
-    Inside the `case 'set'` structure:
+    Inside the `case 'get'` structure:
     ```sh
     case 'newStateExample':
         return newStateExample;
